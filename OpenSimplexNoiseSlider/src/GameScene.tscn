@@ -1,0 +1,277 @@
+[gd_scene load_steps=15 format=2]
+
+[ext_resource path="res://assets/1.png" type="Texture" id=1]
+[ext_resource path="res://assets/2.png" type="Texture" id=2]
+[ext_resource path="res://assets/3.png" type="Texture" id=3]
+[ext_resource path="res://assets/0.png" type="Texture" id=4]
+[ext_resource path="res://assets/7.png" type="Texture" id=5]
+[ext_resource path="res://assets/6.png" type="Texture" id=6]
+[ext_resource path="res://assets/8.png" type="Texture" id=7]
+[ext_resource path="res://assets/9.png" type="Texture" id=8]
+[ext_resource path="res://assets/4.png" type="Texture" id=9]
+[ext_resource path="res://assets/5.png" type="Texture" id=10]
+[ext_resource path="res://src/GameScene.gd" type="Script" id=11]
+[ext_resource path="res://assets/Kenney Pixel Square.ttf" type="DynamicFontData" id=12]
+
+[sub_resource type="TileSet" id=1]
+0/name = "0.png 0"
+0/texture = ExtResource( 4 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 0, 0, 4, 4 )
+0/tile_mode = 0
+0/occluder_offset = Vector2( 0, 0 )
+0/navigation_offset = Vector2( 0, 0 )
+0/shape_offset = Vector2( 0, 0 )
+0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+0/shape_one_way = false
+0/shape_one_way_margin = 0.0
+0/shapes = [  ]
+0/z_index = 0
+1/name = "1.png 1"
+1/texture = ExtResource( 1 )
+1/tex_offset = Vector2( 0, 0 )
+1/modulate = Color( 1, 1, 1, 1 )
+1/region = Rect2( 0, 0, 4, 4 )
+1/tile_mode = 0
+1/occluder_offset = Vector2( 0, 0 )
+1/navigation_offset = Vector2( 0, 0 )
+1/shape_offset = Vector2( 0, 0 )
+1/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1/shape_one_way = false
+1/shape_one_way_margin = 0.0
+1/shapes = [  ]
+1/z_index = 0
+2/name = "2.png 2"
+2/texture = ExtResource( 2 )
+2/tex_offset = Vector2( 0, 0 )
+2/modulate = Color( 1, 1, 1, 1 )
+2/region = Rect2( 0, 0, 4, 4 )
+2/tile_mode = 0
+2/occluder_offset = Vector2( 0, 0 )
+2/navigation_offset = Vector2( 0, 0 )
+2/shape_offset = Vector2( 0, 0 )
+2/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+2/shape_one_way = false
+2/shape_one_way_margin = 0.0
+2/shapes = [  ]
+2/z_index = 0
+3/name = "3.png 3"
+3/texture = ExtResource( 3 )
+3/tex_offset = Vector2( 0, 0 )
+3/modulate = Color( 1, 1, 1, 1 )
+3/region = Rect2( 0, 0, 4, 4 )
+3/tile_mode = 0
+3/occluder_offset = Vector2( 0, 0 )
+3/navigation_offset = Vector2( 0, 0 )
+3/shape_offset = Vector2( 0, 0 )
+3/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+3/shape_one_way = false
+3/shape_one_way_margin = 0.0
+3/shapes = [  ]
+3/z_index = 0
+4/name = "4.png 4"
+4/texture = ExtResource( 9 )
+4/tex_offset = Vector2( 0, 0 )
+4/modulate = Color( 1, 1, 1, 1 )
+4/region = Rect2( 0, 0, 4, 4 )
+4/tile_mode = 0
+4/occluder_offset = Vector2( 0, 0 )
+4/navigation_offset = Vector2( 0, 0 )
+4/shape_offset = Vector2( 0, 0 )
+4/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+4/shape_one_way = false
+4/shape_one_way_margin = 0.0
+4/shapes = [  ]
+4/z_index = 0
+5/name = "5.png 5"
+5/texture = ExtResource( 10 )
+5/tex_offset = Vector2( 0, 0 )
+5/modulate = Color( 1, 1, 1, 1 )
+5/region = Rect2( 0, 0, 4, 4 )
+5/tile_mode = 0
+5/occluder_offset = Vector2( 0, 0 )
+5/navigation_offset = Vector2( 0, 0 )
+5/shape_offset = Vector2( 0, 0 )
+5/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+5/shape_one_way = false
+5/shape_one_way_margin = 0.0
+5/shapes = [  ]
+5/z_index = 0
+6/name = "6.png 6"
+6/texture = ExtResource( 6 )
+6/tex_offset = Vector2( 0, 0 )
+6/modulate = Color( 1, 1, 1, 1 )
+6/region = Rect2( 0, 0, 4, 4 )
+6/tile_mode = 0
+6/occluder_offset = Vector2( 0, 0 )
+6/navigation_offset = Vector2( 0, 0 )
+6/shape_offset = Vector2( 0, 0 )
+6/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+6/shape_one_way = false
+6/shape_one_way_margin = 0.0
+6/shapes = [  ]
+6/z_index = 0
+7/name = "7.png 7"
+7/texture = ExtResource( 5 )
+7/tex_offset = Vector2( 0, 0 )
+7/modulate = Color( 1, 1, 1, 1 )
+7/region = Rect2( 0, 0, 4, 4 )
+7/tile_mode = 0
+7/occluder_offset = Vector2( 0, 0 )
+7/navigation_offset = Vector2( 0, 0 )
+7/shape_offset = Vector2( 0, 0 )
+7/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+7/shape_one_way = false
+7/shape_one_way_margin = 0.0
+7/shapes = [  ]
+7/z_index = 0
+8/name = "8.png 8"
+8/texture = ExtResource( 7 )
+8/tex_offset = Vector2( 0, 0 )
+8/modulate = Color( 1, 1, 1, 1 )
+8/region = Rect2( 0, 0, 4, 4 )
+8/tile_mode = 0
+8/occluder_offset = Vector2( 0, 0 )
+8/navigation_offset = Vector2( 0, 0 )
+8/shape_offset = Vector2( 0, 0 )
+8/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+8/shape_one_way = false
+8/shape_one_way_margin = 0.0
+8/shapes = [  ]
+8/z_index = 0
+9/name = "9.png 9"
+9/texture = ExtResource( 8 )
+9/tex_offset = Vector2( 0, 0 )
+9/modulate = Color( 1, 1, 1, 1 )
+9/region = Rect2( 0, 0, 4, 4 )
+9/tile_mode = 0
+9/occluder_offset = Vector2( 0, 0 )
+9/navigation_offset = Vector2( 0, 0 )
+9/shape_offset = Vector2( 0, 0 )
+9/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+9/shape_one_way = false
+9/shape_one_way_margin = 0.0
+9/shapes = [  ]
+9/z_index = 0
+
+[sub_resource type="DynamicFont" id=2]
+size = 24
+font_data = ExtResource( 12 )
+
+[node name="GameScene" type="Node2D"]
+script = ExtResource( 11 )
+in_seed = "nad labss"
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource( 1 )
+cell_size = Vector2( 4, 4 )
+format = 1
+tile_data = PoolIntArray( 9830400, 9, 0, 9830401, 9, 0, 9830402, 9, 0, 9830403, 9, 0, 9830404, 9, 0, 9830405, 9, 0, 9830406, 9, 0, 9830407, 9, 0, 9830408, 9, 0, 9830409, 9, 0, 9830410, 9, 0, 9830411, 9, 0, 9830412, 9, 0, 9830413, 9, 0, 9830414, 9, 0, 9830415, 9, 0, 9830416, 9, 0, 9830417, 9, 0, 9830418, 9, 0, 9830419, 9, 0, 9830420, 9, 0, 9830421, 9, 0, 9830422, 9, 0, 9830423, 9, 0, 9830424, 9, 0, 9830425, 9, 0, 9830426, 9, 0, 9830427, 9, 0, 9830428, 9, 0, 9830429, 9, 0, 9830430, 9, 0, 9830431, 9, 0, 9830432, 9, 0, 9830433, 9, 0, 9830434, 9, 0, 9830435, 9, 0, 9830436, 9, 0, 9830437, 9, 0, 9830438, 9, 0, 9830439, 9, 0, 9830440, 9, 0, 9830441, 9, 0, 9830442, 9, 0, 9830443, 9, 0, 9830444, 9, 0, 9830445, 9, 0, 9830446, 9, 0, 9830447, 9, 0, 9830448, 9, 0, 9830449, 9, 0, 9830450, 9, 0, 9830451, 9, 0, 9830452, 9, 0, 9830453, 9, 0, 9830454, 9, 0, 9830455, 9, 0, 9830456, 9, 0, 9830457, 9, 0, 9830458, 9, 0, 9830459, 9, 0, 9830460, 9, 0, 9830461, 9, 0, 9830462, 9, 0, 9830463, 9, 0, 9830464, 9, 0, 9830465, 9, 0, 9830466, 9, 0, 9830467, 9, 0, 9830468, 9, 0, 9830469, 9, 0, 9830470, 9, 0, 9830471, 9, 0, 9830472, 9, 0, 9830473, 9, 0, 9830474, 9, 0, 9830475, 9, 0, 9830476, 9, 0, 9830477, 9, 0, 9830478, 9, 0, 9830479, 9, 0, 9830480, 9, 0, 9830481, 9, 0, 9830482, 9, 0, 9830483, 9, 0, 9830484, 9, 0, 9830485, 9, 0, 9830486, 9, 0, 9830487, 9, 0, 9830488, 9, 0, 9830489, 9, 0, 9830490, 9, 0, 9830491, 9, 0, 9830492, 9, 0, 9830493, 9, 0, 9830494, 9, 0, 9830495, 9, 0, 9830496, 9, 0, 9830497, 9, 0, 9830498, 9, 0, 9830499, 9, 0, 9830500, 9, 0, 9830501, 9, 0, 9830502, 9, 0, 9830503, 9, 0, 9830504, 9, 0, 9830505, 9, 0, 9830506, 9, 0, 9830507, 9, 0, 9830508, 9, 0, 9830509, 9, 0, 9830510, 9, 0, 9830511, 9, 0, 9830512, 9, 0, 9830513, 9, 0, 9830514, 9, 0, 9830515, 9, 0, 9830516, 9, 0, 9830517, 9, 0, 9830518, 9, 0, 9830519, 9, 0, 9830520, 9, 0, 9830521, 9, 0, 9830522, 9, 0, 9830523, 9, 0, 9830524, 9, 0, 9830525, 9, 0, 9830526, 9, 0, 9830527, 9, 0, 9830528, 9, 0, 9830529, 9, 0, 9830530, 9, 0, 9830531, 9, 0, 9830532, 9, 0, 9830533, 9, 0, 9830534, 9, 0, 9830535, 9, 0, 9830536, 9, 0, 9830537, 9, 0, 9830538, 9, 0, 9830539, 9, 0, 9830540, 9, 0, 9830541, 9, 0, 9830542, 9, 0, 9830543, 9, 0, 9830544, 9, 0, 9830545, 9, 0, 9830546, 9, 0, 9830547, 9, 0, 9830548, 9, 0, 9830549, 9, 0, 9830550, 9, 0, 9830551, 9, 0, 9830552, 9, 0, 9830553, 9, 0, 9830554, 9, 0, 9830555, 9, 0, 9830556, 9, 0, 9830557, 9, 0, 9830558, 9, 0, 9830559, 9, 0, 9830560, 9, 0, 9830561, 9, 0, 9830562, 9, 0, 9830563, 9, 0, 9830564, 9, 0, 9830565, 9, 0, 9830566, 9, 0, 9830567, 9, 0, 9830568, 9, 0, 9830569, 9, 0, 9830570, 9, 0, 9830571, 9, 0, 9830572, 9, 0, 9830573, 9, 0, 9830574, 9, 0, 9830575, 9, 0, 9830576, 9, 0, 9830577, 9, 0, 9830578, 9, 0, 9830579, 9, 0, 9830580, 9, 0, 9830581, 9, 0, 9830582, 9, 0, 9830583, 9, 0, 9830584, 9, 0, 9830585, 9, 0, 9830586, 9, 0, 9830587, 9, 0, 9830588, 9, 0, 9830589, 9, 0, 9830590, 9, 0, 9830591, 9, 0, 9830592, 9, 0, 9830593, 9, 0, 9830594, 9, 0, 9830595, 9, 0, 9830596, 9, 0, 9830597, 9, 0, 9830598, 9, 0, 9830599, 9, 0, 9830600, 9, 0, 9830601, 9, 0, 9830602, 9, 0, 9830603, 9, 0, 9830604, 9, 0, 9830605, 9, 0, 9830606, 9, 0, 9830607, 9, 0, 9830608, 9, 0, 9830609, 9, 0, 9830610, 9, 0, 9830611, 9, 0, 9830612, 9, 0, 9830613, 9, 0, 9830614, 9, 0, 9830615, 9, 0, 9830616, 9, 0, 9830617, 9, 0, 9830618, 9, 0, 9830619, 9, 0, 9830620, 9, 0, 9830621, 9, 0, 9830622, 9, 0, 9830623, 9, 0, 9830624, 9, 0, 9830625, 9, 0, 9830626, 9, 0, 9830627, 9, 0, 9830628, 9, 0, 9830629, 9, 0, 9830630, 9, 0, 9830631, 9, 0, 9830632, 9, 0, 9830633, 9, 0, 9830634, 9, 0, 9830635, 9, 0, 9830636, 9, 0, 9830637, 9, 0, 9830638, 9, 0, 9830639, 9, 0, 9830640, 9, 0, 9830641, 9, 0, 9830642, 9, 0, 9830643, 9, 0, 9830644, 9, 0, 9830645, 9, 0, 9830646, 9, 0, 9830647, 9, 0, 9830648, 9, 0, 9830649, 9, 0, 9830650, 9, 0, 9830651, 9, 0, 9830652, 9, 0, 9830653, 9, 0, 9830654, 9, 0, 9830655, 9, 0, 9830656, 9, 0, 9830657, 9, 0, 9830658, 9, 0, 9830659, 9, 0, 9830660, 9, 0, 9830661, 9, 0, 9830662, 9, 0, 9830663, 9, 0, 9830664, 9, 0, 9830665, 9, 0, 9830666, 9, 0, 9830667, 9, 0, 9830668, 9, 0, 9830669, 9, 0, 9830670, 9, 0, 9830671, 9, 0, 9830672, 9, 0, 9830673, 9, 0, 9830674, 9, 0, 9830675, 9, 0, 9830676, 9, 0, 9830677, 9, 0, 9830678, 9, 0, 9830679, 9, 0, 9830680, 9, 0, 9830681, 9, 0, 9830682, 9, 0, 9830683, 9, 0, 9830684, 9, 0, 9830685, 9, 0, 9830686, 9, 0, 9830687, 9, 0, 9830688, 9, 0, 9830689, 9, 0, 9830690, 9, 0, 9830691, 9, 0, 9830692, 9, 0, 9830693, 9, 0, 9830694, 9, 0, 9830695, 9, 0, 9830696, 9, 0, 9830697, 9, 0, 9830698, 9, 0, 9830699, 9, 0, 9830700, 9, 0, 9830701, 9, 0, 9830702, 9, 0, 9830703, 9, 0, 9830704, 9, 0, 9830705, 9, 0, 9830706, 9, 0, 9830707, 9, 0, 9830708, 9, 0, 9830709, 9, 0, 9830710, 9, 0, 9830711, 9, 0, 9830712, 9, 0, 9830713, 9, 0, 9830714, 9, 0, 9830715, 9, 0, 9830716, 9, 0, 9830717, 9, 0, 9830718, 9, 0, 9830719, 9, 0 )
+
+[node name="period_slider" type="HSlider" parent="."]
+margin_left = 15.866
+margin_top = 690.73
+margin_right = 415.866
+margin_bottom = 706.73
+rect_min_size = Vector2( 400, 10 )
+max_value = 25.0
+tick_count = 50
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="octave_slider" type="HSlider" parent="."]
+margin_left = 603.417
+margin_top = 689.145
+margin_right = 1003.42
+margin_bottom = 705.145
+rect_min_size = Vector2( 400, 10 )
+max_value = 25.0
+tick_count = 50
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="persist_slider" type="HSlider" parent="."]
+margin_left = 210.225
+margin_top = 609.575
+margin_right = 610.225
+margin_bottom = 625.575
+rect_min_size = Vector2( 400, 10 )
+max_value = 25.0
+tick_count = 50
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lacun_slider" type="HSlider" parent="."]
+margin_left = 868.331
+margin_top = 615.068
+margin_right = 1268.33
+margin_bottom = 631.068
+rect_min_size = Vector2( 400, 10 )
+max_value = 25.0
+tick_count = 50
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 14.4448
+margin_top = 650.728
+margin_right = 272.445
+margin_bottom = 698.728
+custom_fonts/font = SubResource( 2 )
+text = "Period (below)"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label3" type="Label" parent="."]
+margin_left = 605.752
+margin_top = 648.877
+margin_right = 905.752
+margin_bottom = 696.877
+custom_fonts/font = SubResource( 2 )
+text = "octave (below)"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label2" type="Label" parent="."]
+margin_left = 264.489
+margin_top = 630.086
+margin_right = 624.489
+margin_bottom = 678.086
+custom_fonts/font = SubResource( 2 )
+text = "persistance (above)"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label4" type="Label" parent="."]
+margin_left = 982.858
+margin_top = 630.543
+margin_right = 1362.86
+margin_bottom = 678.543
+custom_fonts/font = SubResource( 2 )
+text = "lacunarity (above)"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label5" type="Label" parent="."]
+margin_left = 982.858
+margin_top = 630.543
+margin_right = 1362.86
+margin_bottom = 678.543
+custom_fonts/font = SubResource( 2 )
+text = "lacunarity (above)"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="value_changed" from="period_slider" to="." method="_on_period_slider_value_changed"]
+[connection signal="value_changed" from="octave_slider" to="." method="_on_octave_slider_value_changed"]
+[connection signal="value_changed" from="persist_slider" to="." method="_on_persist_slider_value_changed"]
+[connection signal="value_changed" from="lacun_slider" to="." method="_on_lacun_slider_value_changed"]
