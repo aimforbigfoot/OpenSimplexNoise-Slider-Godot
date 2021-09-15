@@ -16,8 +16,14 @@ func _ready() -> void:
 	else:
 		osn.seed = randi()
 	generate_map()
+	
+func clear_map() -> void:
+	for x in width:
+		for y in height:
+			tilemap.set_cell(x,y, -1)
 
 func generate_map() -> void:
+	clear_map()
 	for x in width:
 		for y in height:
 			var rand := floor((abs(osn.get_noise_2d(x,y)))*15)
